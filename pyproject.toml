@@ -1,5 +1,5 @@
 [project]
-name = "datadog-toto"
+name = "toto-ts"
 version = "0.1.0"
 dynamic = ["dependencies"]
 

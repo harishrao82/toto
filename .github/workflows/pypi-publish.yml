@@ -47,7 +47,7 @@ jobs:
     environment:
       name: pypi
       # PyPI project URL for toto package
-      url: https://pypi.org/project/datadog-toto/${{ github.event.release.name }}
+      url: https://pypi.org/project/toto-ts/${{ github.event.release.name }}
       
     steps:
       - name: Retrieve release distributions  
