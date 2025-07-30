@@ -50,16 +50,12 @@ Toto-Open, the open-weights release of Toto, is available on Hugging Face. Curre
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/DataDog/toto.git
-cd toto
-
 # Optional: create a virtual environment
 python -m venv .venv
 source .venv/bin/activate
 
-# Install package
-pip install --editable .
+# Install via pip
+pip install toto-ts
 ```
 For optimal inference speed, it's recommended to install [xformers](https://github.com/facebookresearch/xformers?tab=readme-ov-file#installing-xformers) and [flash-attention](https://github.com/Dao-AILab/flash-attention?tab=readme-ov-file#installation-and-features) as well.
 
